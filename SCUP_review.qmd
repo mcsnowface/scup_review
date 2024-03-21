@@ -1,0 +1,244 @@
+---
+title: "Strip Cut Understory Protection (SCUP)"
+subtitle: "A review of the experiment, monitoring and field manual"
+author:
+ - name: Stefan Schreiber, PhD, Senior Forest Resource Analyst
+ - name: Robert Froese, PhD, Executive Director FGrOW
+#date: February 16, 2024
+date-format: long
+bibliography: scup_references.bib
+format:
+  pdf: 
+   fig-pos: H
+   link-citations: true
+   toc: true
+   html-math-method: katex
+   css: styles.css
+---
+
+## Source material
+
+This review is based on what information has been available to us as of February 15, 2024. All literature that is referenced below has been made available in a separate folder and can be found in the review package.
+
+## Introduction
+
+In Alberta, sustainable forest management involves timber harvesting by private forest companies and takes place on designated Crown forest lands, with cut levels approved by the Government of Alberta (GOA) through an annual allowable cut (AAC) determination. The calculation of the AAC is based on permanent and temporary sample plots and statistical methods to forecast future growth and harvest volumes. Alberta, traditionally, has a strong focus on harvesting conifers and to lesser extent deciduous tree species, with the latter primarily being used for pulp and paper and oriented strand board production. In order to gain access to deciduous wood in mixedwood stands, a technique called *Strip Cut Understory Protection* (SCUP) has been developed. In Alberta, Strip Cut Understory Protection harvesting is mandatory for any forestry operator who wants to access deciduous wood in Crown forest mixedwood stands containing spruce. Operators need to follow reforestation and stand monitoring requirements outlined in the Alberta Forest Management Planning Standard [@government_of_alberta_alberta_2006] and more specifically, in the case of SCUP harvesting, the Partial harvest (non-clearcut) planning and monitoring guidelines [@government_of_alberta_partial_2006].
+
+Strip Cut Understory Protection is a harvesting technique that allows for the removal of deciduous tree species, such as trembling aspen (*Populus tremuloides*), while preserving understory conifers, such as white spruce (*Picea glauca*). The removal of mature aspen from these stands opens up the canopy, resulting in more sunlight for the understory species and increased growing space. This positively affects the growth of the remaining spruce trees, first in diameter and later in height. During the final harvest, i.e., the spruce harvest, aspen has fully regrown from root suckering, allowing for a second harvest of the aspen. However, this two-stage harvesting approach, specifically the expected results at the time of the 2nd harvest, is purely hypothetical and is based entirely on growth and yield modeling (@fig-two_stage_harvest). The reason for this is the long rotation ages (up to 100 years) of commercially used tree species in Alberta's mixedwood forests and the fact that the first SCUP plots were established in the late 1990s and operationally in the early 2000s [@navratil_s_silvicultural_1994; @grover_white_2014].
+
+![Hypothetical stand yield for two-stage harvest of aspen overstory and evenly distributed white spruce understory (from: @government_of_alberta_partial_2006).](figs/two_stage_harvest.png){#fig-two_stage_harvest}
+
+In 2003, The Forestry Corp. prepared the first version of a Strip Cut Understory Protection Monitoring and Field Manual for the former Mixedwood Management Association (now the Mixed Wood Project Team within the Forest Growth Organization of Western Canada, [FGrOW](https://fgrow.ca/)) in consultation with Dr. Jim Flewelling and Dr. Mike Bokalo [@the_forestry_corp_strip_2003]. This document was created in order to better understand the post-SCUP harvest response of deciduous and conifer trees as well as to provide a standardized harvesting protocol for SCUP. The protocol has been revised in 2006 and 2012 [@the_forestry_corp_strip_2006; @the_forestry_corp_strip_2012] with a new revision being completed in 2013 [@mixedwood_management_association_field_2013] and an updated field manual for re-measurements in 2018 [@forest_growth_organizaton_of_western_canada_field_2018] for SCUP plots established following the most recent protocol by the @mixedwood_management_association_field_2013. The protocol is intended for Single-Pass Strip Cut Understory Protection systems only (see @grover_white_2014 for details regarding Single-Pass and Two-Pass SCUP systems). Note: The original 2003 protocol was not available; however, the two subsequent revisions (2006, 2012) were written on-top of the 2003 protocol. Therefore, we did not see it to be urgent to request the original file at that point. It would, however, be helpful to see if the objectives of the first version are the same compared to the 2006 version and whether any revisions were implemented.
+
+## Objectives
+
+The original objectives of the SCUP experiment were stated by @the_forestry_corp_strip_2006 [p. 1] as follows:
+
+> 1.  A measurement protocol to collect statistically valid data for describing the Block-level stand performance following Strip Cut Understory Protection harvesting;
+> 2.  A protocol that is sufficiently flexible in order to be used by numerous companies, and to account for operational differences in the application of Strip Cut Understory Protection systems;
+> 3.  Re-measured data to quantitatively describe the post-harvest development of stands after Strip Cut Understory Protection harvest treatments;
+> 4.  Information required for growth model development and/or model calibration, with the potential for future use in process-based modelling;
+> 5.  A monitoring protocol that is acceptable to the Alberta Sustainable Resource Development, Land and Forest Division, for use in monitoring and yield curve validation.
+
+In the most recent protocol the objectives were updated to [@mixedwood_management_association_field_2013, p. 4]:
+
+> -   collect data suitable for both MGM model development and initiation
+> -   maximize efficiency of sampling, particularly reducing effort on tagging and measuring saplings.
+
+The key difference here is that "\[...\] **growth model** development \[...\]" has been updated or specified to "\[...\] **MGM model** development and initiation"; and an entirely new objective has been added, i.e. **maximize efficiency of sampling, particularly reducing effort on tagging and measuring saplings.**
+
+## Design {#sec-study_design}
+
+In 2005 and 2007, the Mixed Wood Management Association established a network of permanent sample plots (PSPs) as part of the SCUP monitoring and field manual [@the_forestry_corp_strip_2003]. The protocol is very clear and thorough in its methodology. It describes clear objectives, covers harvest block selection, plot establishment and measurement, and defines quality control standards. The protocol is also very clear about what the design was not meant to test, i.e. it was not designed to statistically test differences between subplots, such as the level of conifer release. Specifically, it reads [@the_forestry_corp_strip_2006, pp. 1-2]:
+
+> *When pooled, the data can be used to describe post-harvest response to Strip Cut Understory Protection systems, including estimation of average stand development trajectories for each sampled Stratum and comparison of differences in growth between Strata. However, the protocol is not intended as a designed experiment and will not allow testing of hypotheses or undertaking of statistical comparisons between Strata. The protocol is not intended to assess the level of release, relative to non-release, since randomized, untreated controls are not part of the sampling protocol.*
+
+Accompanying the protocol, a total of 92 PSPs were established spread across 18 harvest blocks (@fig-block_layout).
+
+![Schematic showing six permanent sample plots (plot clusters) within a harvest block.](figs/block_layout.png){#fig-block_layout width="53%"}
+
+Each PSP is considered to be a *plot cluster*, consisting of a series of subplots (or strips): an extraction area with deciduous tree removal areas to the left and right of the extraction trail (usually labeled as removal area A and B) as well as one buffer area (@fig-plot_layout). The buffer subplot is defined as a "leave area" to protect the released spruce in the removal subplots from windthrow. In the initial 92 plot clusters, the **lengths** of the buffer and removal subplots were *variable*, depending on the **width of the buffer subplot** (@tbl-cluster_dimensions_buffer). The protocol also clearly defines what constitutes an eligible harvest block as well as an extraction trail [@the_forestry_corp_strip_2006, Chapters 3,4].
+
+The 2012 revision of the protocol [@the_forestry_corp_strip_2012, pp.19-20] also includes guidelines for plot clusters in which no buffer area is present. In this case, only one removal area will be established (@fig-plot_layout_nobuffer) and the length of the removal subplot depends on its width (@tbl-cluster_dimensions_nobuffer). However, to my knowledge and the material that has been presented to us, all 92 plot clusters that were established in 2005 and 2007 included a buffer area. We are not aware of any SCUP plots outside this experiment, which adopted the no-buffer design. If those do exist, it may be useful to know by whom and how many plot clusters in order to keep track of all SCUP installations.
+
+In order to estimate plot cluster and block level growth trajectories, a separate, area adjusted trajectory is calculated for each subplot or strip, i.e. *buffer*, *removal A*, *extraction*, *removal B*. The resulting subplot-level yield curves are then pooled to get an individual average curve per plot cluster. These can then be further rolled up to describe the growth trajectory for the entire harvest block.
+
+| Buffer Width | Buffer Length | Removal Length | Extraction Length |
+|--------------|---------------|----------------|-------------------|
+| 5-10 m       | 16 m          | 16 m           | 2 m               |
+| 11-20 m      | 8 m           | 8 m            | 2 m               |
+
+: Subplot length dimensions based on **buffer** strip widths {#tbl-cluster_dimensions_buffer}
+
+| Removal Width | Removal Length | Extraction Length |
+|---------------|----------------|-------------------|
+| $<$ 20 m      | 16 m           | 2 m               |
+| $\ge$ 20 m    | 8 m            | 2 m               |
+
+: Subplot length dimensions based on **removal** strip widths {#tbl-cluster_dimensions_nobuffer}
+
+::: {#fig-plot_clusters layout-ncol="2"}
+![With buffer](figs/plot_layout2.png){#fig-plot_layout width="85%"}
+
+![Without buffer](figs/plot_layout_nobuffer2.png){#fig-plot_layout_nobuffer width="85%"}
+
+Plot cluster layout for blocks with (a) and without buffers (b). From: @mixedwood_management_association_field_2013.
+:::
+
+In order to determine age information for both aspen and spruce, 300 m^2^ age plots were established in the buffer (300 m^2^) as well as both removal strips (2$\times$ 150 m^2^) for each plot cluster (@fig-age_plots). However, the 2006 revision of the protocol [@the_forestry_corp_strip_2006] did not mention age plots. Age plot establishment was first mentioned in the 2012 revision [@the_forestry_corp_strip_2012, pp. 26-28]. Age information from the selected trees will be assessed by coring the stems at breast height and counting the tree rings.
+
+![Without buffer](figs/age_plots.png){#fig-age_plots width="90%"}
+
+Lastly, with the latest protocol [@mixedwood_management_association_field_2013], a decision was made to include seven sapling subplots, labeled as S1-S7, not only for all new installations going forward but also updating all old installations (@fig-sapling_subplot). The reason for this was to make it easier to measure saplings, which likely corresponds to the added objective in the latest SCUP protocol [@mixedwood_management_association_field_2013, p. 4]:
+
+> -   *maximize efficiency of sampling, particularly reducing effort on tagging and measuring saplings*
+
+::: {#fig-sapling_subplot layout-ncol="2"}
+![With buffer](figs/sapling_subplot_buffer.png){#fig-sapling_subplot_buffer}
+
+![Without buffer](figs/sapling_subplot_nobuffer.png){#fig-sapling_subplot_nobuffer}
+
+Sapling subplot layout for plot clusters with and without buffers. From: @mixedwood_management_association_field_2013.
+:::
+
+With respect to the re-measuring intervals, the protocol has been updated over time. @the_forestry_corp_strip_2006, p.4, reads:
+
+> *Removal and Extraction Plots are remeasured at five-year intervals up to and including 20 years, after which a 10-year remeasurement schedule is followed. Buffer Plots are measured every 10 years.*
+
+@the_forestry_corp_strip_2012, p.5, reads:
+
+> *All plots in the Cluster (including the Buffer) are re-measured at five-year intervals up to and including 20 years post-treatment, after which a 10-year re-measurement schedule is followed.*
+
+@mixedwood_management_association_field_2013, p.25, reads:
+
+> *Removal and Extraction Plots are re-measured at five-year intervals, up to and including 20 years, after which a 10-year re measurement schedule is followed. Buffer Plots are measured every 10 years.*
+
+It appears that the latest protocol had copied and pasted the information from the 2006 revision instead of the 2012 revision, or a decision was made that to revert back to measuring Buffer subplots (strips) at a 10-year interval as opposed to a 5-year interval as written in the 2012 revision.
+
+In general, we observed that the latest protocol [@mixedwood_management_association_field_2013] has quite a few formatting errors especially in the table of contents and the corresponding chapters and page numbers in the document. One example can be found on page 25, where the chapter heading reads:
+
+> *3 Plot Cluster Re-Measurement Protocols*
+
+which cannot be reconciled with the table of contents. Also in the footer of this page it reads year 2012, however, the protocol judging by the title page was written in 2013. On the title page it also says:
+
+> *Version 1*
+
+Yet the file name of the document suggests Version 3. Furthermore, the first few pages do not have any page numbers either. In any case, a thorough update of the latest manual [@mixedwood_management_association_field_2013] needs to happen in order to clarify those issues, i.e. whether it was an unfortunate copy and paste issue, deliberate choices, or simply the wrong document that was available to us.
+
+## Measurements
+
+Besides recording general sites conditions (slope, aspect, elevation, UTM coordinates, etc.) and ecological information (soil moisture and nutrient regime, ecosite determination), the following tree related information are collected (item 1 and 2 based on @the_forestry_corp_strip_2006, pp. 29-34; item 3 based on @forest_growth_organizaton_of_western_canada_field_2018, pp. 5):
+
+1.  Age plots (spruce and aspen)
+
+-   Total height (nearest 0.1 m)
+-   Diameter at breast height (nearest 0.1 cm)
+-   Age at breast height (year)
+
+2.  Buffer, removal and extraction plots
+
+-   Total height (nearest 0.1 m)
+-   Diameter at breast height (nearest 0.1 cm)
+-   Height to life crown (nearest 0.1 m)
+-   Crown class
+-   Up to 3 condition codes
+
+3.  Sapling subplots
+
+-   Total height (nearest 0.1 m)
+-   Diameter at breast height (nearest 0.1 cm)
+-   lean %
+-   Crown class
+-   Up to 3 condition codes
+
+All 92 plot clusters have been measured twice so far, meaning that data for the first 10 years have been recorded and were analysed by @bjelanovic_emulating_2022. New measurements to complete the 15-year measurement mark (@tbl-measurement_schedule) are currently underway for 2023. Contracting for the 2024 spring measurements has been postponed until after the present review has been received by the FGrOW members.
+
+| Company                 | Block ID | \# of plots | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Vanderwell              | 7012     | 6           |      |      | 15yr |      |      |      |      |
+| Al-Pac                  | 27131    | 6           |      |      | 15yr |      |      |      |      |
+| Al-Pac                  | 19191    | 6           |      |      | 15yr |      |      |      |      |
+| Al-Pac                  | 29691    | 6           |      |      | 15yr |      |      |      |      |
+| Al-Pac                  | 16751    | 6           |      |      | 15yr |      |      |      |      |
+| Al-Pac                  | 11911    | 6           |      |      |      | 15yr |      |      |      |
+| Al-Pac                  | 22361    | 6           |      |      |      | 15yr |      |      |      |
+| Al-Pac                  | 36551    | 6           |      |      |      | 15yr |      |      |      |
+| Al-Pac                  | 36271    | 6           |      | 10yr |      |      |      |      | 15yr |
+| Al-Pac                  | 36381    | 6           |      | 10yr |      |      |      |      | 15yr |
+| Al-Pac                  | 34591    | 6           | 10yr |      |      |      |      | 15yr |      |
+| Al-Pac                  | 27631    | 6           | 10yr |      |      |      |      | 15yr |      |
+| Al-Pac                  | 15571    | 6           | 10yr |      |      |      |      | 15yr |      |
+| Ainsworth               | 572      | 2           |      | 10yr |      |      |      |      | 15yr |
+| TolkoHL[^1]             | 330      | 2           |      | 10yr |      |      |      |      | 15yr |
+| TolkoHL\color{blue}$^1$ | 2212     | 2           |      | 10yr |      |      |      |      | 15yr |
+| Al-Pac                  | 17781    | 6           | 10yr |      |      |      |      | 15yr |      |
+| Al-Pac                  | 20631    | 2           | 10yr |      |      |      |      | 15yr |      |
+
+: Measuring schedule for the 92 plot clusters of the Strip Cut Understory Protection (SCUP) experiment. Taken from: @forest_growth_organizaton_of_western_canada_strip_2017 {#tbl-measurement_schedule}
+
+[^1]: The area burned during the last week of September 2023 and all plots a very likely lost. Personal communication with Trevor Lafreniere.
+
+## Data storage
+
+The data are currently stored in a Microsoft Access database. However, the database is not up to date and is generally difficult to navigate (personal communication with Benjamin Panes, Resource Analyst and FGrOW Operations Manager).
+
+1.  Three years' worth of measurements (2020, 2021, 2023) have not been added yet.
+
+2.  There are at least two missing plot cluster entries that should include measurement timing (1st measurement for installation 16751, plots 5 and 6). Furthermore, false entries in the same table (installation 20631) incorrectly indicate there are more plots than originally established (plots 3-6).
+
+3.  Additionally, there is missing data in the AREAS SAPLING PLOTS and SCUP Plot Clusters tables. This suggests that the entered data have not been verified or subjected to any extensive checking.
+
+4.  Moreover, there are numerous redundant entries, such as measurement numbers in the AREAS SAPLING PLOTS table, where other values do not change after plot establishment.
+
+5.  Additionally, the location information is limited to easting and northing, without specifying a datum or UTM zone.
+
+Overall, the database is challenging to navigate and locate specific information.
+
+## Results
+
+Presently, the most to date comprehensive analysis of the 92 SCUP plots clusters was conducted by @bjelanovic_emulating_2022. The authors summarized data from 18 stands measured 10 to 12 years after application of the Strip Cut Understory Protection (SCUP) harvest. Their key finding were as follows:
+
+> 1.  Diameter growth of spruce increased during the first five years after harvest while height growth increased during the second five-year period (5 to 10 or 7 to 12 years after release).
+> 2.  Consistent with other studies, mortality rates of aspen trees $\ge$ 7.1 cm DBH (diameter breast height, 1.3 m) averaged 45.0% over the 10--12 year period following harvesting. Spruce mortality averaged 27.5% over the same 10--12 year period.
+> 3.  Substantial aspen regeneration was evident across most harvested blocks, with aspen sapling densities 10--12 years from harvest being higher in removal (14,637 stems ha^-1^) than in buffer areas (6686 stems ha^-1^) and in extraction trails (7654 stems ha^-1^). Spruce sapling ($>$ 1.3 m height and $<$ 4 cm DBH) densities averaged 1140 stems ha^-1^ in removal areas at ages 10--12, with these trees likely being present as seedlings at the time of harvest.
+> 4.  Mixedwood Growth Model projections indicate merchantable volumes averaging 168 m^3^ ha^-1^ (conifer) and 106 m^3^ ha^-1^ (deciduous) 70 years from harvest, resulting in MAI (mean annual increment) for this period averaging 2.0 m^3^ ha^-1^ y^-1^ with MAI for a full 150-year rotation of approximately 2.5 m^3^ ha^-1^ y^-1^.
+
+They also reported that the experiment could have been greatly improved if each plot cluster had its own control plot in order to statistically compare the growth response within each treatment subplot (or strip) with a control plot outside the plot cluster. While this statement may be true and makes sense, the authors of the SCUP harvesting protocol and field manual were very clear that statistical comparisons between subplots (or strips) are not the intent of this study [@the_forestry_corp_strip_2006, pp. 1-2] (see \nameref{sec-study_design} section for the exact wording).
+
+With respect to the collected data, the Microsoft Access database that we have access to doesn't seem up-to-date. Moreover, it lacks clear descriptions of its contents, making it tough for external reviewers to understand and compare measurements with the results presented by @bjelanovic_emulating_2022, or even extend their analysis with the new data that is presently being collected.
+
+## Recommendation
+
+Since there is presently no empirical information available on whether the second SCUP harvest, i.e. the clear-cut of spruce and aspen, will follow the hypothetical model (@fig-two_stage_harvest), we would recommend to continue measuring the experiment until
+
+(a) SCUP harvesting has been sufficiently demonstrated empirically, or
+
+(b) SCUP harvesting is not being practiced any longer on Crown lands in Alberta and hence there is simply no need to further evaluate this partial harvesting technique
+
+(c) the SCUP protocol objectives have been met and the continuation of the experiment is no longer justified
+
+In general we believe that there is still value in the SCUP objectives, we would even argue for the establishment of additional SCUP PSPs in order to reflect current technical improvements in SCUP harvesting, e.g. the reach of the feller buncher etc. Eventually, this will help to fine-tune growth and yield models and provide most up-to-date growth trajectories for timber supply analyses. As of to date, we are aware that Alberta Pacific Forest Industries Inc., is actively establishing more SCUP plots on their FMA [@alberta-pacific_forest_industries_inc_forest_2015, p. 34]:
+
+> *There are currently 80 high-effort strip cut understorey protection (SCUP) PSPs in 20 Al-Pac harvest blocks that are remeasured on a five-year cycle by the Forest Growth Organization of Western Canada (FGROW). There are also five existing understorey PSPs following the outmoded ASRD protocols and six new SCUP PSPs established between 2015--2017 that are maintained by Al-Pac. Another two to four new SCUP plots per year may be established by Al-Pac before 2024.*
+
+However, since the development of MGM has resulted in a Government approved version, i.e. [MGM21](https://mgm.ualberta.ca/mgm21/), it could also be argued that this objective has been met and there is no need to continue with SCUP measurements other than to comply with monitoring requirements set out by the Government of Alberta, which is outside of the scope of FGrOW's mandate and the sole responsibility of the forest companies. On the other hand, growth model development never stops and additional data can be used to continuously improve the model's predictive capabilities. Hence, we would recommend to continue to measure SCUP for as long as partial harvesting is a practiced in Alberta forestry.
+
+The biggest flaws of SCUP however are, that the plots exhibit bias, even within Al-Pac's FMA area. This makes them unsuitable for initiating a growth model in the traditional sense used for yield estimation due to their limited and biased geographic distribution. Additionally, they are not suitable for reporting on monitoring outcomes, given the combination of limited geographic distribution and lack of control plots. It is important to acknowledge that some plots deviate significantly from current SCUP (Sustainable Forest Management) practices, with notable variations in buffer and strip widths. Furthermore, many of these plots were established in the early days of practice, characterized by meticulous care and straight-line configurations. SCUP's primary, and possibly sole, potential lies in the development of growth models and enhancing the comprehension of plot cluster stand dynamics **following** SCUP treatment. Its role in contributing to yield estimation is by enabling a company to initialize a model, simulate a SCUP treatment, and estimate the potential response. However, the direct use of SCUP data for yield estimation is limited, and the emphasis is placed on utilizing the data for modeling and simulation purposes (personal communication with Katrina Froese, RPF, Resource Analyst West Fraser).
+
+FOR ROBERT:
+
+This came from Kat and I have never hear about CTRN
+
+-   **Is the protocol sufficiently flexible for operational differences in SCUP systems?** Sure, but see below – could this protocol and the CTRN protocol be aligned? Do we need separate protocols? That would be even MORE efficient!
+
+Does this maybe link to Sharon's comment?
+
+"In light of this, I would like to see some thing in the review that addresses how/if repeated measurements of the SCUP trial would be used for individual tree modelling that could be extrapolated to other circumstances. This should include whether data that would serve the same purpose could be more easily/economically obtained elsewhere."
+
+Since the SCUP study results are published in an international peer-reviewed journal [see @bjelanovic_emulating_2022], provides some additional confidence in the study and its objectives in general. However, since there are no control plots in the SCUP experiment (as mentioned earlier), it is not possible to draw statistically valid conclusion with respect to the response of spruce to release. If this is something of interest to the FGrOW members, then the protocol needs to be adapted and control plots established for new subsequent SCUP permanent sample plot installations.
+
+Regarding the SCUP database, it's important to make sure it's up-to-date, with a separate folder containing the raw data sheets. Additionally, having access to the database used in @bjelanovic_emulating_2022 would be beneficial, and we recommend providing a detailed description of the items stored in the database for better clarity.
+
+Lastly, the fact that the SCUP protocol has been actively worked on since its inception (see various revisions), provides us with a feeling of interest in the study and a desire to keep the protocol improving over time. However, we would strongly recommend to update the latest version [@mixedwood_management_association_field_2013] as there have been some inconsistencies with respect to previous version as well as formatting issues, such as wrong section headings and page numbering.
+
+## References
